@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+    <a href="new.html">跳转到new页面</a>
+    <ul class="tab">
+        <li>最新</li>
+        <li class="cur">热门</li>
+        <li>新闻</li>
+    </ul>
+    <div>11</div>
+    <div class="on">22</div>
+    <div>33</div>
+    <h1>这是 index.html 这是首页</h1>
+
+
+    <!-- 引入js  一定要加在body 里面 -->
+    <div id="h1">
+        xxxxxxxxx
+    </div>
+    <div id="seaJS">
+        <h2>这是seajs 渲染出来的</h2>
+    </div>
+    <%=require('./footer.html')({active:'----------这是首页'})%>
+        <div style="width: 1384px; height: 1196px" class="icon"></div>
+        <script src="assets/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

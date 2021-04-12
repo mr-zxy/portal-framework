@@ -1,0 +1,41 @@
+{
+    "name": "yhl_web_new",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "bootstrap-datetime-picker": "^2.4.4",
+        "core-js": "^3.4.3",
+        "detect-browser": "^4.8.0",
+        "ejs": "^3.1.6",
+        "ejs-loader": "^0.3.7",
+        "font-awesome": "^4.7.0",
+        "html5shiv": "^3.7.3",
+        "jquery": "^3.6.0",
+        "object-fit-images": "^3.2.4",
+        "p-datetime": "^1.0.6",
+        "qs": "^6.9.1",
+        "xss": "^1.0.8"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.1.0",
+        "@vue/cli-plugin-eslint": "^4.1.0",
+        "@vue/cli-service": "^4.1.0",
+        "babel-eslint": "^10.0.3",
+        "compression-webpack-plugin": "^3.0.1",
+        "ejs": "^3.0.1",
+        "ejs-loader": "^0.3.5",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "html-loader": "^0.5.5",
+        "sass": "^1.23.7",
+        "sass-loader": "^8.0.0",
+        "vue-template-compiler": "^2.6.10",
+        "webpack-bundle-analyzer": "^3.6.0",
+        "webpack-spritesmith": "^1.1.0"
+    }
+}
